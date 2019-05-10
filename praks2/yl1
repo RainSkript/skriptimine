@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# tervitusskript
+#
+echo -n "Tere, " 
+echo -n "Rain"  #väljastab nime reavahetuseta
+echo "!" 
+#
+#
