@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Minu isetehtud skript
+#
+echo -n "Pinginaaber istub paremal, " # väljasta ilma reavahetuseta Pinginaaber istub paremal,
+echo -n "Tema nimi Arro"  # väljasta ! ja tee reavahetus
+#
+# Skripti lõpp
