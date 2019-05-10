@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+#
+#
+echo " " #
+echo " " #
+echo " " #
+echo -n "Minu nimi on Rain Pärna" #
+echo " " #
+echo -n "Õpin ISP218 grupis" #
+echo " " #
+echo -n "Antud aine on väga huvitav kuid on teatuid asju millest on raske aru saada" #
+echo "!" #
+echo -n "Hetkel ei saa üldse hakkama" #
+echo " " #
+echo " " #
+echo " " # 
+#
+# 
