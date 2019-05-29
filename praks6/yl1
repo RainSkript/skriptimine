@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+#Kas arv on paaris voi paaritu
+echo -n "Sisestage suvaline taisarv: "
+read arv
+#loeb arvu
+if [ $(($arv%2)) -eq 0 ];
+#Kui arv paaris kuvatakse et on paaris
+then 
+echo "$arv on paarisarv"
+#kui arv ei ole paaris siis kuvab masin et arv on paaritu
+else
+echo "$arv on paarituarv"
+fi
+echo ""
+#
+#skripti lopp
