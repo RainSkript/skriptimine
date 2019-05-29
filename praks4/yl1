@@ -1,0 +1,6 @@
+#!/bin/bash
+#tervitamise skript
+echo -n "Sisesta oma ees- ja perenimi:" #
+read eesnimi perenimi
+echo "sinu eesnimi on $eesnimi ja perenimi on $perenimi" #
+#skripti lõpp
