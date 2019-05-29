@@ -1,0 +1,24 @@
+#!/bin/bash
+#
+#kupsise arvutamine
+#
+echo -n "sisesta aluskandiku pikkus cm-tes:"
+read pikkus #küsib sisendit
+echo -n "sisesta aluskandiku laius cm-tes:"
+read laius # küsib sisendit
+echo ""
+echo -n "kui suur on kupsis?(cm-tes):"
+read kupsis
+echo -n "mitu kihti on tordil?:"
+echo ""
+read kihid
+echo -n "mitu kupsist on pakis?:"
+echo "" 
+read kupsisepakk
+echo -n "sul on vaja"
+pindala=`expr $pikkus \* $laius` #
+kupsisekiht=`expr $pindala / $kupsis` #
+kupsisedkokku=`expr $kupsisekiht \* $kihid` #
+pakid=`expr $kupsisedkokku / $kupsisepakk` #
+jaak=`expr $kupsisedkokku % $kupsisepakk` #
+echo " $pakid kupsist ja lisaks $jaak tukki!"
